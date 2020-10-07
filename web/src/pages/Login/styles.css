@@ -1,0 +1,38 @@
+.form form{
+    display:flex;
+    flex-direction: column;
+  }
+.form form > a{
+    margin-top: 50px;
+  }
+  .input-block{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  input[type="submit"]{
+    margin-top:10px;
+  }
+.input-block  label{
+    font-size:12px;
+  }
+.form  a{
+    font-size:10px;
+  }
+  .login{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .create-account{
+    display: flex;
+    justify-content: flex-end;
+  }
+.input-block  input[type='submit']{
+    width:50px;
+  }
+.input-block  input{
+    width:200px;
+    height: 20px;
+  }
