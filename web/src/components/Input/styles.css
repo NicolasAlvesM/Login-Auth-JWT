@@ -1,0 +1,18 @@
+.input-block{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  input[type="submit"]{
+    margin-top:10px;
+  }
+.input-block  label{
+    font-size:12px;
+  }
+  .input-block  input[type='submit']{
+    width:50px;
+  }
+.input-block  input{
+    width:200px;
+    height: 20px;
+  }

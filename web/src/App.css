@@ -10,3 +10,14 @@
   margin:0;
   box-sizing: border-box;
 }
+.form form{
+  display:flex;
+  flex-direction: column;
+}
+.form form > a{
+  margin-top: 50px;
+}
+
+.form  a{
+  font-size:10px;
+}
