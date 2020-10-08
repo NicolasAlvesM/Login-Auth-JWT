@@ -19,7 +19,7 @@ export function AuthProvider({children}){
             }).then(res=>{
                 localStorage.setItem("user",JSON.stringify(res.data.user))
                 localStorage.setItem("token",res.data.token)
-                api.defaults.headers['Authorization']=`Bearer ${res.data.token}`
+                api.defaults.headers['authorization']=`Bearer ${res.data.token}`
                 setUser(res.data.user)
             }).catch(err=>alert("Senha ou email errados"))
     }

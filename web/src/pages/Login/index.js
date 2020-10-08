@@ -4,6 +4,7 @@ import Input from '../../components/Input'
 import {useAuth} from '../../context/auth'
 import './styles.css'
 function Login(){
+
   const history=useHistory()
   const {signIn,signed}=useAuth()
   const emailInputRef=useRef(null)
