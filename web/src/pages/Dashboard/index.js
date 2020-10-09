@@ -12,7 +12,7 @@ function Dashboard(){
         history.push('/login')
     }
     async function handleTokenTest(){
-        const {data}=await api.post('/me')
+        const {data}=await api.get('/me')
         setUserID(data)
     }
     return(
