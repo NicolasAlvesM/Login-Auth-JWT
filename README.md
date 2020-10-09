@@ -7,7 +7,7 @@ uma aplicação que faz a autenticação de login de um usuário no sistema.
 - [x] Usuário pode logar, e se manter logado ate ele mesmo fazer logout.
 - [ ] Caso o usuário esqueça sua senha ele pode recuperar por email.
  
-# Oque aprendi?
+## Oque aprendi?
  - Context API do react, para compartilhar um mesmo dado entre varias telas.
  - Antes de salvar a senha do usuário em um banco de dados é necessario criptografar essa senha.
  - Após o login do usuário todas as requisições para o servidor são feitas utilizando o Token do usuário, esse token fica salvo na memoria do dispositivo.
