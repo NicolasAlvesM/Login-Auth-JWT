@@ -9,7 +9,7 @@ uma aplicação que faz a autenticação de login de um usuário no sistema.
  
 # Oque aprendi?
  - Context API do react, para compartilhar um mesmo dado entre varias telas.
-	- Antes de salvar a senha do usuário em um banco de dados é necessario criptografar essa senha.
+ - Antes de salvar a senha do usuário em um banco de dados é necessario criptografar essa senha.
  - Após o login do usuário todas as requisições para o servidor são feitas utilizando o Token do usuário, esse token fica salvo na memoria do dispositivo.
  - É utilizado token para não haver necessida de digitar a senha e usuário a cada requisição.
  - É possivel definir um tempo de expiração para o token gerado.
