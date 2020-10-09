@@ -5,7 +5,7 @@ uma aplicação que faz a autenticação de login de um usuário no sistema.
 
 - [x] Usuário pode criar sua conta.
 - [x] Usuário pode logar, e se manter logado ate ele mesmo fazer logout.
-- [] Caso o usuário esqueça sua senha ele pode recuperar por email.
+- [ ] Caso o usuário esqueça sua senha ele pode recuperar por email.
  
 # Oque aprendi?
  - Context API do react, para compartilhar um mesmo dado entre varias telas.
