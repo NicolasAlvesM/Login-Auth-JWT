@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         alignItems:'center',
         justifyContent:'center',
         borderRadius:8,
-        marginTop:5
+        marginVertical:5
     }
 })
 export default styles
